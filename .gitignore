@@ -1,1 +1,13 @@
-.aider*
+# Ignore cache directories
+__pycache__/
+.pytest_cache/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+.pycharm/
+.sublime-text/
+
+# Ignore virtual environment directory
+venv/
+env/
